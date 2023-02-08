@@ -153,7 +153,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 const SizedBox(height: 30),
                 TextFormField(
                   textInputAction: TextInputAction.next,
-                  obscureText: true,
+                  // obscureText: true,
                   controller: Global.passwordController,
                   onChanged: (val) {
                     setState(() {
@@ -205,7 +205,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
                 const SizedBox(height: 30),
                 TextFormField(
-                  obscureText: true,
+                  // obscureText: true,
                   onSaved: (val) {
                     setState(() {
                       Global.confirmPassword = val;

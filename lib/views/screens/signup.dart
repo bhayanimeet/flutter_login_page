@@ -82,7 +82,7 @@ class _SignupState extends State<Signup> {
                 const SizedBox(height: 30),
                 TextFormField(
                   textInputAction: TextInputAction.next,
-                  obscureText: true,
+                  // obscureText: true,
                   controller: Global.rePasswordController,
                   onSaved: (val) {
                     setState(() {
